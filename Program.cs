@@ -43,7 +43,7 @@ string[] InputArrayUser()
     string[] arr = new string[0];
     while (true)
     {
-        Console.Write("Введите элементы (результат - q): ");
+        Console.Write("Введите элемент массива (результат - q): ");
         string userInformation = Console.ReadLine()!;
         if (userInformation == "q" || userInformation == "Q") break;
         else arr = AddingNewValuesToArray(arr, newRow: userInformation);
