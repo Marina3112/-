@@ -55,8 +55,8 @@ Console.WriteLine();
 
 string[] information = InputArrayUser();
 Console.WriteLine();
-Console.WriteLine("[{0}] - Первоначальный массив", string.Join(", ", information));
+Console.WriteLine("[{0}] - Первоначальный массив", string.Join(" | ", information));
 Console.WriteLine();
 string[] newInformation = NewArrayByCondition(arr: information);
-Console.WriteLine("[{0}] - Результирующий массив", string.Join(", ", newInformation));
+Console.WriteLine("[{0}] - Результирующий массив", string.Join(" | ", newInformation));
 Console.WriteLine();
